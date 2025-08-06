@@ -11,7 +11,7 @@ if (!text) {
   process.exit(1);
 }
 
-// log with timeStamp
+// Log With timeStamp
 const timeStamp = new Date().toISOString();
 const logMessage = `[${timeStamp}] ${text}\n`;
 
