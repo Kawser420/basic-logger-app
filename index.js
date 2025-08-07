@@ -17,7 +17,7 @@ const logMessage = `[${timeStamp}] ${text}\n`;
 
 const filePath = path.join(__dirname, "log.txt");
 
-// Append log to log.txt file
+// Append Log To log.txt file
 fs.appendFile(filePath, logMessage, { encoding: "utf-8" }, (err) => {
   if (err) {
     console.error("❌ Failed to wrong log:", err);
