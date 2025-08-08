@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-// Get message from CLI arguments
+// Get Message from CLI arguments
 const inputArguments = process.argv.slice(2);
 const text = inputArguments.join(" ");
 
